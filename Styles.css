@@ -1,0 +1,101 @@
+html, body {
+    height: 100%;
+}
+
+.center {
+    display: flex;    
+    height:90vh;
+}
+
+.centerbody{
+    padding-top: 30px;
+    height:90vh;  
+}
+
+.navbar{
+    border-bottom: 2px solid #E31111;
+}
+
+a{
+    color: #E31111;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #515050;
+    text-decoration: none;
+}
+
+.btn, .btn-primary, button.btn.btn-primary{
+    background-color: #E31111;
+    border: #E31111;
+    margin-right: 10px;        
+}
+
+.btn:hover, .btn-primary:hover, button.btn.btn-primary:hover{
+    background-color: white;    
+    border: 1px solid #E31111;
+    color: #E31111;
+    cursor: pointer;    
+}
+
+.login{
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #515050;
+    width: 100%;
+    max-width: 350px;  
+    margin: auto;      
+}
+
+.active{
+    background: #E31111;
+    border-color: #E31111;
+    box-shadow: 0 0 0 0.2rem rgba(227, 17, 17, 0.267);
+}
+
+.btn:focus, .btn:active, .btn.focus, .btn.active,
+.btn-primary:focus, .btn-primary:active, .btn-primary.focus, .btn-primary.active,
+button.btn.btn-primary:focus, button.btn.btn-primary:active,
+button.btn.btn-primary.focus, button.btn.btn-primary.active{
+    color: white;
+    background: #E31111;
+    border-color: #E31111;
+    box-shadow: 0 0 0 0.2rem rgba(227, 17, 17, 0.267);    
+}
+
+.form-control:focus {
+    border-color: #E31111;
+    box-shadow: 0 0 0 0.2rem rgba(227, 17, 17, 0.267);
+}
+
+.containerCategoria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.elementoCategoria{
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid #515050;
+    margin: 10px;
+    max-height: 150px;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+footer{
+    color: #515050;
+    background-color: #BABCBF;
+    bottom: 0px;    
+}
+
+#logoFooter{
+    opacity: 0.5;
+}
